@@ -24,5 +24,5 @@ function doWhileLoop(array) {
   }
   do {
     incrementVariable();
-  } while (i >= 10);
+  } while (incrementVariable() < 10);
 }
