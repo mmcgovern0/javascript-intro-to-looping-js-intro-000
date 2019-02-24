@@ -20,8 +20,9 @@ function doWhileLoop(array) {
   var i = 0;
   function incrementVariable(){
     i = i + 1;
+  console.log("I run once regardless.");
   }
   do {
-    console.log("I run once regardless.");
+    incrementVariable();
   } while (i >= 10);
 }
