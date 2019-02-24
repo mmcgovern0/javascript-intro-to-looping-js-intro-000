@@ -23,5 +23,5 @@ function doWhileLoop(array) {
   }
   do {
     console.log("I run once regardless.");
-  } while (i > 10);
+  } while (i >= 10);
 }
