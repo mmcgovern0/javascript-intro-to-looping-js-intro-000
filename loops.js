@@ -18,11 +18,12 @@ function whileLoop(n){
 
 function doWhileLoop(array) {
   var i = 0;
-  function incrementVariable(){
+  function incrementVariable() {
     i = i + 1;
-  console.log("I run once regardless.");
   }
   do {
+    console.log("I run once regardless.");
+    array = array.slice(1);
     incrementVariable();
-  } while (incrementVariable() < 10);
+  } while (array.length > 0 && i < 5);
 }
