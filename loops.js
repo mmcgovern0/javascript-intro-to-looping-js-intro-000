@@ -23,7 +23,6 @@ function doWhileLoop(array) {
   }
   do {
     console.log("I run once regardless.");
-    array = array.slice(1);
     incrementVariable();
   } while (incrementVariable() < 10);
 }
