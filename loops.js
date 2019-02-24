@@ -25,5 +25,5 @@ function doWhileLoop(array) {
     console.log("I run once regardless.");
     array = array.slice(1);
     incrementVariable();
-  } while (array.length > 0 && i < 5);
+  } while (incrementVariable() < 10);
 }
